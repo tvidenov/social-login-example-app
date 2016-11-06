@@ -1,0 +1,78 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.16.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.16.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.16.1):
+    - FBSDKCoreKit
+  - Firebase/Auth (3.7.1):
+    - Firebase/Core
+    - FirebaseAuth (= 3.0.5)
+  - Firebase/Core (3.7.1):
+    - FirebaseAnalytics (= 3.4.4)
+    - FirebaseCore (= 3.4.3)
+  - FirebaseAnalytics (3.4.4):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+  - FirebaseAuth (3.0.5):
+    - FirebaseAnalytics (~> 3.3)
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleUtilities (~> 1.2)
+  - FirebaseCore (3.4.3):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleUtilities (~> 1.2)
+  - FirebaseInstanceID (1.0.8)
+  - GoogleAppUtilities (1.1.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleAuthUtilities (2.0.2):
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleNetworkingUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSignIn (4.0.0):
+    - GoogleAppUtilities (~> 1.1)
+    - GoogleAuthUtilities (~> 2.0)
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleUtilities (~> 1.3)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+
+DEPENDENCIES:
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Firebase/Auth
+  - GoogleSignIn
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 6feac4e8921ccd7afa83fb1df6291dc6eec42c7c
+  FBSDKLoginKit: 469a56cebe2e1ed62b1621d0b155970fd6aac2d8
+  FBSDKShareKit: 53af0239b5bd2ebf191f32f75991245a208cc982
+  Firebase: be473484f0d515e72ffd04acf22f981773c23e58
+  FirebaseAnalytics: 0533a00b681e08fd0b2cd0444b7ddf0ef9fd7a1a
+  FirebaseAuth: 75a062bbf2d3c97d1e6e55bbc110e13a6853e25d
+  FirebaseCore: 5a885548bbc5f0c410b04f8e9ac9d73ff1221907
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  GoogleAppUtilities: a8a552aa74f6597f805e45b5a3962766c3134973
+  GoogleAuthUtilities: ccad2e0a9284699973ff57c0dd24c3893657fda4
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
+  GoogleSignIn: 09036ed61f8e75f1424100d63f7719480b2428c3
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+
+PODFILE CHECKSUM: 6fd6b783ccbcac7815fc3a70117d1908a8a33b93
+
+COCOAPODS: 1.1.1
