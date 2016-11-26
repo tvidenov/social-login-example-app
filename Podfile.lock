@@ -5,6 +5,7 @@ PODS:
   - Bolts/AppLinks (1.8.4):
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
+  - Fabric (1.6.10)
   - FBSDKCoreKit (4.16.1):
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.16.1):
@@ -47,16 +48,23 @@ PODS:
   - GoogleSymbolUtilities (1.1.2)
   - GoogleUtilities (1.3.2):
     - GoogleSymbolUtilities (~> 1.1)
+  - TwitterCore (2.5.0):
+    - Fabric
+  - TwitterKit (2.5.0):
+    - TwitterCore (= 2.5.0)
 
 DEPENDENCIES:
+  - Fabric
   - FBSDKCoreKit
   - FBSDKLoginKit
   - FBSDKShareKit
   - Firebase/Auth
   - GoogleSignIn
+  - TwitterKit
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Fabric: c73f371ee543e3f0b80608f2674750e4910d1669
   FBSDKCoreKit: 6feac4e8921ccd7afa83fb1df6291dc6eec42c7c
   FBSDKLoginKit: 469a56cebe2e1ed62b1621d0b155970fd6aac2d8
   FBSDKShareKit: 53af0239b5bd2ebf191f32f75991245a208cc982
@@ -72,7 +80,9 @@ SPEC CHECKSUMS:
   GoogleSignIn: 09036ed61f8e75f1424100d63f7719480b2428c3
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  TwitterCore: 95c46af93112768a7983bd370d66023553601d01
+  TwitterKit: dd8042698b0ff5bd3066fa919b3b2b50d8eed829
 
-PODFILE CHECKSUM: 6fd6b783ccbcac7815fc3a70117d1908a8a33b93
+PODFILE CHECKSUM: 718a4d8365681db2ddc1e90b184e00e5dee35995
 
 COCOAPODS: 1.1.1

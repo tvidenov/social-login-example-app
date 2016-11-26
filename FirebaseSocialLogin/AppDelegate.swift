@@ -10,6 +10,8 @@ import UIKit
 import FBSDKCoreKit
 import Firebase
 import GoogleSignIn
+import Fabric
+import TwitterKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
@@ -18,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        Fabric.with([Twitter.self])
         
         FIRApp.configure()
         
