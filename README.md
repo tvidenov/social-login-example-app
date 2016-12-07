@@ -1,7 +1,7 @@
 # FirebaseSocialLogin
 
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)]
-[![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)]
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)
+![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)
 
 
 ## Description
