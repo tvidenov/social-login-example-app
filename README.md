@@ -9,8 +9,8 @@ FirebaseSocialLogin is a simple app showing how to authenticate with Facebook, G
 
 ## How to use this?
 It is connected to test accounts but you should use yours in order to be able to manage the services.
-Replace the GoogleService-info.plist for Firebase
-Replace the Fabric information in Info.plist for Twitter
-Register your app bundle in Facebook.
+- Replace the GoogleService-info.plist for Firebase
+- Replace the Fabric information in Info.plist for Twitter
+- Register your app bundle in Facebook.
 
 ![Screen](https://github.com/changer6360/social-login-example-app/blob/master/screenshots/screen.png)
